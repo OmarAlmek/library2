@@ -72,7 +72,8 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(40, 255, 40);</string>
+    <string notr="true">background-color: rgb(40, 255, 40);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
     <string>Purchase book</string>
@@ -177,6 +178,35 @@
    </property>
    <property name="text">
     <string>LE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bookmessage">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_negamount">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>290</y>
+     <width>301</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
    </property>
   </widget>
  </widget>

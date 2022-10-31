@@ -1,5 +1,6 @@
 #include "student.h"
 #include "ui_student.h"
+#include "fdialog.h"
 Student::Student(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::Student)

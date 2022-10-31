@@ -11,14 +11,17 @@ CONFIG += c++17
 SOURCES += \
     fdialog.cpp \
     main.cpp \
+    sdialog.cpp \
     student.cpp
 
 HEADERS += \
     fdialog.h \
+    sdialog.h \
     student.h
 
 FORMS += \
     fdialog.ui \
+    sdialog.ui \
     student.ui
 
 # Default rules for deployment.
